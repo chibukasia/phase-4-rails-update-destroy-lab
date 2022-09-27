@@ -1,5 +1,6 @@
 class PlantsController < ApplicationController
 
+  wrap_parameters format: []
   # GET /plants
   def index
     plants = Plant.all
